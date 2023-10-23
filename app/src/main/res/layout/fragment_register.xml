@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:padding="25dp"
+    android:orientation="vertical"
+    tools:context=".RegisterFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@color/black"
+        style="@style/CustomTextView18Bold"
+        />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/uname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bginput"
+        android:layout_marginTop="30dp"
+        android:hint="Username"
+        android:padding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bginput"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:padding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bginput"
+        android:layout_marginTop="20dp"
+        android:hint="Phone"
+        android:padding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/pass"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/bginput"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:padding="15dp"
+        android:fontFamily="@font/montserrat_medium"
+        android:textSize="16dp"/>
+
+    <Button
+        android:id="@+id/button_register"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Register"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@drawable/rounded_button"
+        android:textColor="@color/white"/>
+
+
+</LinearLayout>
